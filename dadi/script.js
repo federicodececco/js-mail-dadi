@@ -1,6 +1,6 @@
 
-const player = Math.floor(Math.random() * 7)
-const machine = Math.floor(Math.random() * 7)
+const player = Math.floor(Math.random() * 6 +1)
+const machine = Math.floor(Math.random() * 6 +1)
 if (player > machine) {
     console.log(`Player wins: ${player} - ${machine}`)
 }
